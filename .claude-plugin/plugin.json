@@ -1,6 +1,6 @@
 {
   "name": "israeli-site-builder",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Process, boundaries and real-browser checks for building Hebrew websites in Israel with Claude Code. Early draft.",
   "author": {
     "name": "DivineSites",

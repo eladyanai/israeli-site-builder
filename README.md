@@ -16,11 +16,15 @@ Once the repository is public, on Claude Code 2.1.275 or later:
 /plugin install israeli-site-builder --marketplace eladyanai/israeli-site-builder
 ```
 
-## What exists now
+## What is inside
 
-- `skills/site-builder/`: the process, boundaries and ready checks.
+- `skills/site-builder/SKILL.md`: the 7-step process and its gates.
+- `references/`: process detail, boundaries, RTL and Hebrew, design kit, Elementor, ready checks, launch checklist, Israeli requirements, client materials.
+- `templates/`: brief and `DESIGN.md`.
+- `scripts/`: contrast and RTL checks.
+- `evals/`: test requests.
 
-Not yet here: the Israeli layer (RTL, typography, language, requirements), the design kit template, check scripts, the client board module, and evals.
+Not yet here: the client board module, and a run on a real project.
 
 ## Not legal advice
 
