@@ -1,11 +1,14 @@
 {
   "name": "israeli-site-builder",
-  "owner": { "name": "Elad Yanai" },
+  "owner": {
+    "name": "DivineSites"
+  },
   "plugins": [
     {
       "name": "israeli-site-builder",
       "source": "./",
       "description": "Process, boundaries and real-browser checks for building Hebrew websites in Israel."
     }
-  ]
+  ],
+  "description": "Claude Code plugins by DivineSites for building websites in Israel."
 }

@@ -2,9 +2,9 @@
 
 > Working name. Early draft, not ready for use.
 
-סקיל ל-Claude Code לבוני אתרים ישראלים: תהליך של 7 שלבים עם נקודות עצירה לאישור אדם, גבולות גזרה ובדיקות בדפדפן אמיתי לפני שאומרים "מוכן".
+סקיל של [DivineSites](https://divinesites.co.il) ל-Claude Code לבוני אתרים ישראלים: תהליך של 7 שלבים עם נקודות עצירה לאישור אדם, גבולות גזרה ובדיקות בדפדפן אמיתי לפני שאומרים "מוכן".
 
-A Claude Code skill for people building Hebrew websites in Israel: a 7-step process with human approval gates, clear boundaries, and real-browser checks.
+A Claude Code skill by [DivineSites](https://divinesites.co.il) for people building Hebrew websites in Israel: a 7-step process with human approval gates, clear boundaries, and real-browser checks.
 
 Background article (Hebrew): https://divinesites.co.il/blog/website-design/claude-code-skill-israeli-websites/
 

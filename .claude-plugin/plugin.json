@@ -2,5 +2,8 @@
   "name": "israeli-site-builder",
   "version": "0.1.0",
   "description": "Process, boundaries and real-browser checks for building Hebrew websites in Israel with Claude Code. Early draft.",
-  "author": { "name": "Elad Yanai" }
+  "author": {
+    "name": "DivineSites",
+    "url": "https://divinesites.co.il"
+  }
 }
