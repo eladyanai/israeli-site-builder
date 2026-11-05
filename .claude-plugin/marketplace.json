@@ -1,0 +1,11 @@
+{
+  "name": "israeli-site-builder",
+  "owner": { "name": "Elad Yanai" },
+  "plugins": [
+    {
+      "name": "israeli-site-builder",
+      "source": "./",
+      "description": "Process, boundaries and real-browser checks for building Hebrew websites in Israel."
+    }
+  ]
+}
