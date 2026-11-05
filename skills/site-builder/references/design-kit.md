@@ -1,9 +1,9 @@
 # Design kit
 
-The kit is a decision file the agent reads before every screen. Start from `templates/DESIGN.md`. Never leave a value empty: an empty value invites invention.
+The kit is a decision file the agent reads before every screen. Start from `../templates/DESIGN.md`. Never leave a value empty: an empty value invites invention.
 
 ## Must contain
-- **Color:** name by role, exact value, why, computed contrast (`scripts/contrast.py`), and a rule for text on each color.
+- **Color:** name by role, exact value, why, computed contrast (`../scripts/contrast.py`), and a rule for text on each color.
 - **Typography:** family, weight, size and line height per role, checked in Hebrew.
 - **Components:** button and form in every state: hover, focus, disabled, error, success.
 - **Spacing and depth:** a fixed scale for spacing, radius and shadow.

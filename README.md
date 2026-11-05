@@ -19,9 +19,9 @@ Once the repository is public, on Claude Code 2.1.275 or later:
 ## What is inside
 
 - `skills/site-builder/SKILL.md`: the 7-step process and its gates.
-- `references/`: process detail, boundaries, RTL and Hebrew, design kit, Elementor, ready checks, launch checklist, Israeli requirements, client materials.
-- `templates/`: brief and `DESIGN.md`.
-- `scripts/`: contrast and RTL checks.
+- `skills/site-builder/references/`: process detail, boundaries, RTL and Hebrew, design kit, Elementor, ready checks, launch checklist, Israeli requirements, client materials.
+- `skills/site-builder/templates/`: brief and `DESIGN.md`.
+- `skills/site-builder/scripts/`: contrast and RTL checks.
 - `evals/`: test requests.
 
 Not yet here: the client board module, and a run on a real project.

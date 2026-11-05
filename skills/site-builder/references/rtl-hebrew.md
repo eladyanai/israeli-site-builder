@@ -6,7 +6,7 @@
 - Wrap a range in `<bdi>`, without the currency or percent sign: `<bdi>09:00 - 17:00</bdi>`.
 - Prefer words to risky symbols: "כ-75" not `~75`, "מעל 7,000" not `7,000+`, "20 דולר" not `$20`.
 - Hex codes and code inside Hebrew text need their own `dir="ltr"`.
-- Run `scripts/bidi_check.py` on the copy, then check by eye. The script finds candidates only.
+- Run `../scripts/bidi_check.py` on the copy, then check by eye. The script finds candidates only.
 
 ## CSS
 Use logical properties (`margin-inline-start`, `padding-inline-end`, `text-align: start`) instead of left and right.
