@@ -1,9 +1,12 @@
 {
   "name": "israeli-site-builder",
-  "version": "0.2.0",
-  "description": "Process, boundaries and real-browser checks for building Hebrew websites in Israel with Claude Code. Early draft.",
+  "version": "0.2.1",
+  "description": "Process, boundaries and real-browser checks for building Hebrew websites in Israel with Claude Code. Early version.",
   "author": {
     "name": "DivineSites",
     "url": "https://divinesites.co.il"
-  }
+  },
+  "license": "MIT",
+  "homepage": "https://divinesites.co.il/blog/website-design/claude-code-skill-israeli-websites/",
+  "repository": "https://github.com/eladyanai/israeli-site-builder"
 }
