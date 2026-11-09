@@ -26,7 +26,7 @@ _מאת אלעד ינאי, [DivineSites](https://divinesites.co.il) · גרסה 
 
 סקיל הוא אותו ידע בקובץ ש-Claude טוען לבד כשמבקשים ממנו לבנות אתר, בלי להדביק את המסמך בכל שיחה.
 
-- **Claude באתר או באפליקציה:** [מורידים את קובץ הסקיל](https://github.com/eladyanai/israeli-site-builder/releases/latest/download/site-builder.zip). בהגדרות של Claude, באזור הסקילים (Skills), מעלים את קובץ ה-ZIP כמו שהוא, בלי לפתוח אותו. הסקילים עובדים רק כשהרצת קוד ויצירת קבצים מופעלות בהגדרות.
+- **Claude באתר או באפליקציה:** [מורידים את קובץ הסקיל](https://github.com/eladyanai/israeli-site-builder/releases/latest/download/site-builder.zip). ב-Claude נכנסים להגדרות (Settings), בוחרים Customize ואת הלשונית Skills, לוחצים Add ואחר כך Upload skill, ומעלים את קובץ ה-ZIP כמו שהוא, בלי לפתוח אותו. סקילים עובדים רק כש-„Create and edit files" מופעל תחת Capabilities.
 - **Claude Code:** מריצים בתוך Claude Code את שתי הפקודות:
 
 ```
