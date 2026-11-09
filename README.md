@@ -29,7 +29,9 @@ Older versions:
 /plugin install israeli-site-builder@israeli-site-builder
 ```
 
-Without the plugin system: [download the release](https://github.com/eladyanai/israeli-site-builder/releases/latest) and copy `skills/site-builder` to `~/.claude/skills/`.
+Without the plugin system: download [site-builder.zip](https://github.com/eladyanai/israeli-site-builder/releases/latest/download/site-builder.zip) and unzip it into `~/.claude/skills/`.
+
+In Claude on the web or the desktop app: download the same [site-builder.zip](https://github.com/eladyanai/israeli-site-builder/releases/latest/download/site-builder.zip) and upload it as is under Skills in Claude's settings. Skills need code execution and file creation turned on.
 
 Then ask for a site or landing page, or run `/israeli-site-builder:site-builder`.
 
