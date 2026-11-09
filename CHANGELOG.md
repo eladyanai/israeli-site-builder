@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0 - 2026-11-09
+
+- The core is now general: any language, any platform. Hebrew and RTL, Israeli requirements and Elementor became modules that load only when they apply.
+- New `guide/`: the same knowledge as one article to give any AI tool before asking it to build a site.
+- New test requests for non-Hebrew sites.
+
 ## 0.2.1 - 2026-11-05
 
 - First public early version. MIT license, install instructions, credits.

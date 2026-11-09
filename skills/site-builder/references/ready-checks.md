@@ -7,9 +7,9 @@
 | Button colors | Read text and background colors from the browser |
 | Motion | Measure that the effect really changes with scroll or time |
 | Forms | Send for real and confirm the email arrived |
-| Text direction | Ranges, prices and phone numbers, by eye and by script |
+| Text direction (RTL sites) | Ranges, prices and phone numbers, by eye and by script |
 | Not checked | Write it down. Video transparency on iPhone needs a real phone |
 
-## Text direction
+## Text direction (RTL sites only)
 
 Wrap a number range in `<bdi>`, without the currency or percent sign. Spaces around a dash split it into two runs that swap places, and a sign before a number can jump to the other side and change the meaning without anyone noticing.

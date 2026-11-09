@@ -7,8 +7,8 @@
     {
       "name": "israeli-site-builder",
       "source": "./",
-      "description": "Process, boundaries and real-browser checks for building Hebrew websites in Israel."
+      "description": "Process, boundaries and real-browser checks for building websites, with a Hebrew and RTL layer."
     }
   ],
-  "description": "Claude Code plugins by DivineSites for building websites in Israel."
+  "description": "Claude Code plugins by DivineSites for building websites."
 }
