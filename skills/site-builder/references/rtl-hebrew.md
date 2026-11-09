@@ -3,7 +3,8 @@
 ## Text direction
 - Set `lang="he" dir="rtl"` on the root element.
 - A Latin or numeric run is laid out left to right inside the paragraph. Spaces around a dash split a range into two runs that swap places. A sign before a number can jump to the other side and change the meaning.
-- Wrap a range in `<bdi>`, without the currency or percent sign: `<bdi>09:00 - 17:00</bdi>`.
+- Best: join a range with a word, which cannot flip: "09:00 עד 17:00", "250 עד 300 ש״ח".
+- If a dash is needed, wrap the whole range in `<bdi dir="ltr">`, without the currency or percent sign: `<bdi dir="ltr">09:00 - 17:00</bdi>`.
 - Prefer words to risky symbols: "כ-75" not `~75`, "מעל 7,000" not `7,000+`, "20 דולר" not `$20`.
 - Hex codes and code inside Hebrew text need their own `dir="ltr"`.
 - Run `../scripts/bidi_check.py` on the copy, then check by eye. The script finds candidates only.

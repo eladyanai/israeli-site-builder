@@ -12,4 +12,4 @@
 
 ## Text direction (RTL sites only)
 
-Wrap a number range in `<bdi>`, without the currency or percent sign. Spaces around a dash split it into two runs that swap places, and a sign before a number can jump to the other side and change the meaning without anyone noticing.
+Join a range with a word ("עד") where possible. Otherwise wrap it in `<bdi dir="ltr">`, without the currency or percent sign. Spaces around a dash split it into two runs that swap places, and a sign before a number can jump to the other side and change the meaning without anyone noticing.

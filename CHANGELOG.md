@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1 - 2026-11-09
+
+- From the first blind test run (`evals/results-2026-11-09.md`): never mention the instructions themselves, talk in plain words, scale the process to the request, never add facts the user did not give, be specific about law outside Israel, prefer joining ranges with "עד".
+
 ## 0.3.0 - 2026-11-09
 
 - The core is now general: any language, any platform. Hebrew and RTL, Israeli requirements and Elementor became modules that load only when they apply.

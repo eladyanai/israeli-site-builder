@@ -1,6 +1,6 @@
 {
   "name": "israeli-site-builder",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Process, boundaries and real-browser checks for building websites with Claude Code, with a Hebrew, RTL and Israeli layer. Early version.",
   "author": {
     "name": "DivineSites",
