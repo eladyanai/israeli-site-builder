@@ -5,6 +5,7 @@
 - The core is now general: any language, any platform. Hebrew and RTL, Israeli requirements and Elementor became modules that load only when they apply.
 - New `guide/`: the same knowledge as one article to give any AI tool before asking it to build a site.
 - New test requests for non-Hebrew sites.
+- Install in Claude on the web or the desktop app from `site-builder.zip`, attached to each release.
 
 ## 0.2.1 - 2026-11-05
 

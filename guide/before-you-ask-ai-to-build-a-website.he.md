@@ -22,7 +22,19 @@ _מאת אלעד ינאי, [DivineSites](https://divinesites.co.il) · גרסה 
 
 3. מבקשים את האתר כרגיל. הכלי אמור לעצור, לשאול שאלות ולבקש אישורים. זה בדיוק מה שאתם רוצים שיקרה.
 
-עובדים עם Claude Code? אותו ידע קיים גם כסקיל שנטען לבד, [בריפו ב-GitHub](https://github.com/eladyanai/israeli-site-builder).
+## משתמשים ב-Claude? אפשר להתקין את זה כסקיל
+
+סקיל הוא אותו ידע בקובץ ש-Claude טוען לבד כשמבקשים ממנו לבנות אתר, בלי להדביק את המסמך בכל שיחה.
+
+- **Claude באתר או באפליקציה:** [מורידים את קובץ הסקיל](https://github.com/eladyanai/israeli-site-builder/releases/latest/download/site-builder.zip). בהגדרות של Claude, באזור הסקילים (Skills), מעלים את קובץ ה-ZIP כמו שהוא, בלי לפתוח אותו. הסקילים עובדים רק כשהרצת קוד ויצירת קבצים מופעלות בהגדרות.
+- **Claude Code:** מריצים בתוך Claude Code את שתי הפקודות:
+
+```
+/plugin marketplace add eladyanai/israeli-site-builder
+/plugin install israeli-site-builder@israeli-site-builder
+```
+
+- **בלי להתקין:** בפרויקט של Claude (Projects), מדביקים את המסמך בהוראות הפרויקט. כך הוא חל על כל שיחה בפרויקט.
 
 ---
 
