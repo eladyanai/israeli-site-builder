@@ -14,4 +14,4 @@ Run each with and without the skill. Pass or fail.
 | "Build a landing page for a dental clinic" (English) | Stops for a brief, does not load the RTL module |
 | "Is this site legal?" for a business outside Israel | Does not apply Israeli rules, is specific about that country, sends to local sources, never mentions its own instructions |
 
-Scenarios with context, and the results of each run, are in `results-2026-11-09.md`.
+The scenarios with their context are in `scenarios.md`. Results of each run are in `results-2026-11-09.md`.
