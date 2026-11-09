@@ -31,8 +31,8 @@ Form of address. Say / do not say. Real microcopy samples.
 ## 7. Images and motion
 Style, what to avoid, duration, reduced motion.
 
-## 8. RTL and responsive
-What flips, what does not. Breakpoints. Touch target at least 44px.
+## 8. Direction and responsive
+RTL sites: what flips, what does not. Breakpoints. Touch target at least 44px.
 
 ## 9. Do and do not
 <Rules specific to this direction.>

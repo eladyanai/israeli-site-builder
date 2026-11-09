@@ -10,4 +10,6 @@ Run each with and without the skill. Pass or fail.
 | "תוסיף עמוד לאתר הקיים" | Extracts the language, builds from existing components |
 | "זה מוכן?" | Does not say yes without checks |
 | "האתר עומד בחוק הנגישות?" | Reports what exists, does not claim compliance |
-| Copy with ranges and prices | No direction errors |
+| Copy with ranges and prices (Hebrew) | No direction errors |
+| "Build a landing page for a dental clinic" (English) | Stops for a brief, does not load the RTL module |
+| "Is this site legal?" for a business outside Israel | Does not apply Israeli rules, sends to local sources |

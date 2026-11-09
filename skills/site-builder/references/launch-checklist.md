@@ -11,7 +11,7 @@ Go through this before and after a site goes live. Each row says who can confirm
 | Home page is set and published | script |
 | Phone, email, address and social links are correct | human |
 | Every testimonial, number and claim has a source | human |
-| One form of address across the site (plural, feminine, masculine or neutral) | human |
+| One voice and form of address across the site. In gendered languages such as Hebrew: plural, feminine, masculine or neutral | human |
 | Alt text on images | script |
 | Designed 404 page | browser |
 
@@ -26,10 +26,12 @@ Go through this before and after a site goes live. Each row says who can confirm
 | Every form sent for real, and the email reached the client's inbox | human |
 | Outgoing mail works through SMTP | browser |
 | WhatsApp and phone links open correctly on a phone | human |
-| Ranges, prices and phone numbers read correctly in RTL | script and human |
+| RTL sites: ranges, prices and phone numbers read correctly | script and human |
 | Shop only: a real test order, payment, confirmation email and invoice | human |
 
 ## Before launch: legal drafts, reviewed by the client's lawyer
+
+The rows below follow Israeli practice (`israel-requirements.md`). Elsewhere, check what the local law asks for: the topics are usually the same.
 
 | Check | How |
 |---|---|
@@ -46,7 +48,7 @@ Existence does not prove compliance. Say so in the report.
 |---|---|
 | Full backup taken, and restore path known | human |
 | Security basics: no default admin, plugins from known sources | script and human |
-| WordPress, theme and plugins updated | script |
+| Platform, theme and plugins updated | script |
 | Global colors and fonts set in the theme or kit | script |
 | Favicon and share image | script |
 | Page titles and descriptions | script |

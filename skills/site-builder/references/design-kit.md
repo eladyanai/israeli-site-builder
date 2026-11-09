@@ -4,12 +4,12 @@ The kit is a decision file the agent reads before every screen. Start from `../t
 
 ## Must contain
 - **Color:** name by role, exact value, why, computed contrast (`../scripts/contrast.py`), and a rule for text on each color.
-- **Typography:** family, weight, size and line height per role, checked in Hebrew.
+- **Typography:** family, weight, size and line height per role, checked on real copy in the site's language. Hebrew: see `rtl-hebrew.md`.
 - **Components:** button and form in every state: hover, focus, disabled, error, success.
 - **Spacing and depth:** a fixed scale for spacing, radius and shadow.
 - **Voice:** real samples and a say / do not say list. No lorem ipsum.
 - **Images and motion:** style, what to avoid, duration, and behavior with reduced motion.
-- **RTL:** what flips and what does not.
+- **Direction:** on a right-to-left site, what flips and what does not (`rtl-hebrew.md`).
 - **Lock history:** what was approved, when, and what it replaced.
 
 ## Existing site

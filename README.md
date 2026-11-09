@@ -4,9 +4,13 @@
 >
 > **Early version.** Not yet run on a real project. Reports of what breaks are welcome.
 
-סקיל של [DivineSites](https://divinesites.co.il) ל-Claude Code לבוני אתרים ישראלים: תהליך של 7 שלבים עם נקודות עצירה לאישור אדם, גבולות גזרה ובדיקות בדפדפן אמיתי לפני שאומרים "מוכן".
+סקיל של [DivineSites](https://divinesites.co.il) ל-Claude Code לבניית אתרים עם סוכן AI: תהליך של 7 שלבים עם נקודות עצירה לאישור אדם, גבולות גזרה ובדיקות בדפדפן אמיתי לפני שאומרים "מוכן". הליבה כללית לכל שפה ופלטפורמה, ויש שכבה לאתר בעברית ולדרישות בישראל.
 
-A Claude Code skill by [DivineSites](https://divinesites.co.il) for people building Hebrew websites in Israel: a 7-step process with human approval gates, clear boundaries, and real-browser checks.
+לא עובדים עם Claude Code? [המדריך](guide/before-you-ask-ai-to-build-a-website.he.md) הוא אותו ידע בקובץ אחד, להדביק או לתת לכל כלי AI לקרוא לפני שמבקשים ממנו לבנות אתר.
+
+A Claude Code skill by [DivineSites](https://divinesites.co.il) for building websites with an AI agent: a 7-step process with human approval gates, clear boundaries, and real-browser checks. The core works for any language and platform, with an extra layer for Hebrew, RTL and Israeli requirements.
+
+Not on Claude Code? [The guide](guide/before-you-ask-ai-to-build-a-website.he.md) (Hebrew) holds the same knowledge in one file to paste into any AI tool before asking it to build a site.
 
 Background article (Hebrew): https://divinesites.co.il/blog/website-design/claude-code-skill-israeli-websites/
 
@@ -27,7 +31,7 @@ Older versions:
 
 Without the plugin system: [download the release](https://github.com/eladyanai/israeli-site-builder/releases/latest) and copy `skills/site-builder` to `~/.claude/skills/`.
 
-Then ask for a Hebrew site or landing page, or run `/israeli-site-builder:site-builder`.
+Then ask for a site or landing page, or run `/israeli-site-builder:site-builder`.
 
 ## Safety
 
@@ -36,7 +40,8 @@ The skill asks before writing to a live site, but you approve what the agent doe
 ## What is inside
 
 - `skills/site-builder/SKILL.md`: the 7-step process and its gates.
-- `skills/site-builder/references/`: process detail, boundaries, RTL and Hebrew, design kit, Elementor, ready checks, launch checklist, Israeli requirements, client materials.
+- `skills/site-builder/references/`: the core (process, boundaries, design kit, client materials, ready checks, launch checklist) and modules loaded only when they apply (RTL and Hebrew, Israeli requirements, Elementor).
+- `guide/`: the same knowledge as one article for any AI tool.
 - `skills/site-builder/templates/`: brief and `DESIGN.md`.
 - `skills/site-builder/scripts/`: contrast and RTL checks.
 - `evals/`: test requests.
